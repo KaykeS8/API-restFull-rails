@@ -1,3 +1,4 @@
+module V1
   class KindsController < ApplicationController
     include ActionController::HttpAuthentication::Token::ControllerMethods
     # include ActionController::HttpAuthentication::Basic::ControllerMethods
@@ -67,3 +68,4 @@
         end
       end
   end  
+end
