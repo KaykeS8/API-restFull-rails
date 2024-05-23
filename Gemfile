@@ -12,6 +12,8 @@ gem "sqlite3", "~> 1.4"
 gem "puma", ">= 5.0"
 gem 'active_model_serializers', '~> 0.10.0'
 gem "versionist"
+gem "kaminari"
+gem "api-pagination"
 
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
