@@ -10,4 +10,10 @@ module ErrorSerializer
         json[:errors] = new_hash
         json
     end
+
+    def self.message_error(error)
+        return if error.nil?
+        json = {message: error}
+        json
+    end
 end
