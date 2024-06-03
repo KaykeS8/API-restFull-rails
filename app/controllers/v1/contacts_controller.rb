@@ -6,6 +6,7 @@ module V1
     # GET /contacts
     def index
       @contacts = Contact.all.page(params[:page]).per(5)
+      #cache control expires_in 30.seconds, public: true
       render json: @contacts
     end
   
